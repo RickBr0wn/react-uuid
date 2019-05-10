@@ -1,5 +1,9 @@
 # React Uuid
 
+> Easily generate Universal Unique Identifiers, for your React projects
+
+[![NPM](https://img.shields.io/npm/v/react-uuid.svg?style=flat)](https://www.npmjs.com/package/react-uuid) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 A UUID (Universal Unique Identifier) is a 128-bit number used to uniquely identify some object or entity on the Internet. Depending on the specific mechanisms used, a UUID is either guaranteed to be different or is, at least, extremely likely to be different from any other UUID generated until 3400 A.D. 
 In its authoritative textual representation, the 16 octets of a UUID are represented as 32 hexadecimal (base-16) digits, displayed in 5 groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters (32 alphanumeric characters and 4 hyphens).
 
