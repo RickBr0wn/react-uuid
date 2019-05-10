@@ -24,7 +24,7 @@ npm i react-uuid
 
 And then can be used inside the project like:
 
-```
+```jsx
 import React from 'react'
 import uuid from 'react-uuid'
 
