@@ -1,6 +1,8 @@
 # React Uuid
 
-[![NPM](https://img.shields.io/npm/v/@rickbrown/react-uuid.svg)](https://www.npmjs.com/package/@rickbrown/react-uuid) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) <span class="badge-travisci"><a href="http://travis-ci.com/bevry/badges" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/badges/master.svg" alt="Travis CI Build Status" /></a></span> <span class="badge-npmdownloads"><a href="https://www.npmjs.com/package/@rickbrown/use-fetch" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/badges.svg" alt="NPM downloads" /></a></span> <span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/RickBrown" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span> [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://github.com/RickBr0wn/react-uuid#readme) [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://github.com/RickBr0wn/react-uuid?targetFile=package.json) [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://github.com/RickBr0wn/react-uuid?branch=master)
+> Easily generate Universal Unique Identifiers, for your React projects
+
+[![NPM](https://img.shields.io/npm/v/react-uuid.svg?style=flat)](https://www.npmjs.com/package/react-uuid) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A UUID (Universal Unique Identifier) is a 128-bit number used to uniquely identify some object or entity on the Internet. Depending on the specific mechanisms used, a UUID is either guaranteed to be different or is, at least, extremely likely to be different from any other UUID generated until 3400 A.D.
 In its authoritative textual representation, the 16 octets of a UUID are represented as 32 hexadecimal (base-16) digits, displayed in 5 groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters (32 alphanumeric characters and 4 hyphens).
@@ -26,15 +28,15 @@ npm i react-uuid
 
 And then can be used inside the project like:
 
-```
-import React from 'react'
-import uuid from 'react-uuid'
+```jsx
+import React from 'react';
+import uuid from 'react-uuid';
 
-const array = ['one', 'two', 'three']
+const array = ['one', 'two', 'three'];
 
-export const LineItem = item => <li key={uuid()}>{item}</li>
+export const LineItem = (item) => <li key={uuid()}>{item}</li>;
 
-export const List = () => array.map(item => <LineItem item={item} />)
+export const List = () => array.map((item) => <LineItem item={item} />);
 ```
 
 In the above example, the output would be 3 `LineItem` components being rendered, with each `LineItem` supplied a universal unique identifier, which when required, will allow React to identify which `LineItem` component should be mutated.

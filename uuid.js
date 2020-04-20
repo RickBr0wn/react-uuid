@@ -20,17 +20,17 @@ function uuid() {
     '6',
     '7',
     '8',
-    '9'
-  ]
-  let uuid = []
+    '9',
+  ];
+  let uuid = [];
   for (let i = 0; i < 35; i++) {
     if (i === 7 || i === 12 || i === 17 || i === 22) {
-      uuid[i] = '-'
+      uuid[i] = '-';
     } else {
-      uuid[i] = hashTable[Math.floor(Math.random() * hashTable.length - 1)]
+      uuid[i] = hashTable[Math.floor(Math.random() * hashTable.length - 1)];
     }
   }
-  return uuid.join('')
+  return uuid.join('');
 }
 
-module.exports = uuid
+module.exports = uuid;
