@@ -1,4 +1,4 @@
-# React Uuid
+# React uuid
 
 > Easily generate Universal Unique Identifiers, for your React projects
 
@@ -55,7 +55,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/RickBr0wn/e9cc0f06cbd45218
 
 - **Rick Brown** - _Initial work_ - [RickBr0wn](https://gist.github.com/RickBr0wn)
 
-## Contributors
+## Contributors
 
 - **riverliway** - feat: add typescript declaration file - [riverliway](https://github.com/riverliway)
 
