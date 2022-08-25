@@ -55,7 +55,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/RickBr0wn/e9cc0f06cbd45218
 
 - **Rick Brown** - _Initial work_ - [RickBr0wn](https://gist.github.com/RickBr0wn)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Contributors
+
+- **riverliway** - feat: add typescript declaration file - [riverliway](https://github.com/riverliway)
 
 ## License
 
