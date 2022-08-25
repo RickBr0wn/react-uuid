@@ -1,6 +1,6 @@
 {
   "name": "react-uuid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple library to create uuid's in React",
   "main": "uuid.js",
   "types": "uuid.d.ts",
