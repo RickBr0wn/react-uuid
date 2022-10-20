@@ -5,12 +5,15 @@
   "main": "uuid.js",
   "types": "uuid.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {	
     "type": "git",
     "url": "https://github.com/RickBr0wn/react-uuid.git"
   },
   "author": "Rick Brown <ricky.brown.00@gmail.com> (https://github.com/RickBr0wn/minimal-react-boilerplate)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
 }
