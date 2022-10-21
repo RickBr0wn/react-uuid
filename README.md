@@ -58,6 +58,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/RickBr0wn/e9cc0f06cbd45218
 ## Contributors
 
 - **riverliway** - feat: add typescript declaration file - [riverliway](https://github.com/riverliway)
+- **Alwyn-RM** - fix: modified generator code to match 8-4-4-4-12 scheme - [Alwyn-RM](https://github.com/Alwyn-RM)
 
 ## License
 
